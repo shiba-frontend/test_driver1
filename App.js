@@ -17,6 +17,8 @@ import {
   View,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import Geolocation from '@react-native-community/geolocation';
 
 
 const App = () => {
